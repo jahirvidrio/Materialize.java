@@ -51,7 +51,7 @@ public class MFrame extends JFrame {
 
   public void setBackgroundColor(Color backgroundColor) {
     this.getContentPane().setBackground(backgroundColor);
-    this.primaryMPanel.setBackground(Color.LIGHT_GRAY);
+    this.primaryMPanel.setBackground(backgroundColor);
     this.paddingTop.setBackground(backgroundColor);
     this.paddingBottom.setBackground(backgroundColor);
     this.paddingLeft.setBackground(backgroundColor);
